@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body, .smooth-container { 
+    scroll-behavior: smooth;
+}
+
+.top-section {
+    height: 100vh;
+    background: 
+    linear-gradient(135deg, rgb(146,141,171,0.4), rgb(31,28,44, 0.4) 70%),
+    url(../assets/stars.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navHead {
+    color: white;
+    padding: 3%;
+    text-align: right;
+}
+.navHead a {
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+}
+
+.intro-text {
+    color: white;
+    padding-top: 35vh;
+    padding-left: 10%;
+}
+
+.intro-title{
+    font-weight: 100;
+    font-size: 48px;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.about-me {
+    background: #dbe4ff;
+    height: 100vh;
+    padding-top: 3%; 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title {
+    color: #77bed2;
+    font-size: 48px;
+}
+
+.text-area {
+    padding-top: 5%;
+}
+
+.resume {
+    height: 150vh;
+    background: #f5f5f5;
+    padding-top: 3%; 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contact {
+    height: 25vh;
+    background: #2e3842;
+    padding-top: 1%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+.contact a {
+    color: white;
+}
+
+.contact ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.contact li {
+    margin-bottom: 7px;
+}
+
+.contact i {
+    margin-right: 10px;
+}
+.modal-body h2 {
+    color: #77bed2;
+}
+
+.resume-body {
+    width: 100%;
+}
+
+.resume-body h2 {
+    color: #77bed2;
+}
