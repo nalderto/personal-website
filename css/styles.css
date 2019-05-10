@@ -83,9 +83,10 @@ body, .smooth-container {
 }
 
 .about-me {
-    background: #f0f7ff;
-    height: 100vh;
-    padding-top: 3%; 
+    background: #f5f5f5;
+    min-height: 100vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -99,10 +100,17 @@ body, .smooth-container {
     padding-top: 5%;
 }
 
+.projects {
+    background: #2e3842;
+    padding-top: 3%; 
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .resume {
-    height: 150vh;
     background: #f5f5f5;
     padding-top: 3%; 
+    padding-bottom: 3%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -140,4 +148,12 @@ body, .smooth-container {
 
 .resume-body h2 {
     color: #77bed2;
+}
+
+.resume-body p {
+    max-width: 800px;
+}
+
+.projects .card {
+    max-width: 400px;
 }
