@@ -1,6 +1,6 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -38,9 +38,13 @@ body, .smooth-container {
     padding-left: 10%;
 }
 
-.intro-title{
+.intro-title {
     font-weight: 100;
     font-size: 48px;
+}
+
+.intro-subtitle {
+    font-size: 24px;
 }
 
 @keyframes fadeInUp {
@@ -84,11 +88,8 @@ body, .smooth-container {
 
 .about-me {
     background: #f5f5f5;
-    min-height: 100vh;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .title {
@@ -97,30 +98,24 @@ body, .smooth-container {
 }
 
 .text-area {
-    padding-top: 5%;
+    padding-top: 20px;
 }
 
 .projects {
     background: #2e3842;
-    padding-top: 3%; 
-    padding-bottom: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .resume {
     background: #f5f5f5;
-    padding-top: 3%; 
-    padding-bottom: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .contact {
     height: 25vh;
     background: #2e3842;
-    padding-top: 1%; 
-    padding-left: 5%;
-    padding-right: 5%;
     color: white;
+    padding-top: 20px;
 }
 .contact a {
     color: white;
@@ -128,6 +123,7 @@ body, .smooth-container {
 
 .contact ul {
     margin-top: 10px;
+    padding-left: 5px;
     list-style: none;
 }
 
@@ -143,17 +139,71 @@ body, .smooth-container {
 }
 
 .resume-body {
-    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.resume-body h2 {
+.resume-body h4 {
     color: #77bed2;
+    margin-bottom: 10px;
+}
+.resume-body .col {
+    padding-left: 0;
+}
+.resume-body h5 {
+    margin-bottom: 0;
 }
 
-.resume-body p {
-    max-width: 800px;
+.subsection {
+    color: #3070A3
 }
 
-.projects .card {
-    max-width: 400px;
+.resume-body h6 {
+    margin-top: 0;
+}
+
+.edu-info {
+    font-size: 18px;
+}
+
+.card {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.btn {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.about-me img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+}
+
+.projects .row {
+    width: 80%;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.TA-semester {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.modal {
+    border-radius: 4px;
+}
+
+.modal .btn-flat {
+    background-color: #B89392;
+    color: white;
+}
+
+.card-action a {
+    color: #65BCCF;
 }
