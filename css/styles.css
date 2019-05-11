@@ -16,7 +16,7 @@ body, .smooth-container {
     height: 100vh;
     background: 
     linear-gradient(135deg, rgb(146,141,171,0.4), rgb(31,28,44, 0.4) 70%),
-    url(../assets/stars.jpg) no-repeat;
+    url(../assets/stars.jpg) no-repeat, url(../assets/low-res-stars.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
