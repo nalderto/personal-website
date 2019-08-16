@@ -144,7 +144,7 @@ body, .smooth-container {
 }
 
 .resume-body h4 {
-    color: #77bed2;
+    color: #3070A3;
     margin-bottom: 10px;
 }
 .resume-body .col {
@@ -155,15 +155,22 @@ body, .smooth-container {
 }
 
 .subsection {
-    color: #3070A3;
+    color: black
 }
 
 .resume-body h6 {
     margin-top: 0;
+    color: rgb(92, 92, 92);
+    font-weight: 300;
+}
+
+.resume-body p {
+    font-weight: 300;
 }
 
 .edu-info {
     font-size: 18px;
+    font-weight: 300;
 }
 
 .card {
@@ -193,6 +200,7 @@ body, .smooth-container {
 .TA-semester {
     padding-top: 5px;
     padding-left: 10px;
+    font-weight: 300;
 }
 
 .modal {
